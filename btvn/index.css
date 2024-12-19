@@ -148,6 +148,13 @@ html {
     gap: 15px;
     display: flex;
     padding: 0 40px;
+
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+}
+
+.container-features:last-child {
+    border-right: none;
 }
 
 .title-features {
@@ -164,12 +171,19 @@ html {
     background-color: #f8f8f8;
     padding: 10px;
     border-radius: 20px;
+
 }
 
 .card {
     border-radius: 20px;
     position: relative;
-    padding: 5px 10px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.card img {
+    width: 100%;
+    height: fit-content;
 }
 
 .icon-start {
@@ -181,7 +195,7 @@ html {
 }
 
 .title-product {
-    width: 95%;
+
     font-size: 16px;
     text-transform: lowercase;
     margin-bottom: 4px;
@@ -214,4 +228,148 @@ i {
     padding: 0 28px;
     margin-bottom: 5px;
 
+}
+
+.burger-section {
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.burger-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.burger-item {
+    text-align: center;
+
+}
+
+.burger-item h2 {
+    font-size: 24px;
+    color: #215d3a;
+}
+
+.burger-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.burger-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+
+    margin: 0px;
+
+}
+
+.offers-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.offer-item {
+    text-align: center;
+    background-color: #ffa500;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+.offer-item:nth-child(2) {
+    background-color: #f7941d;
+}
+
+.offer-item:nth-child(3) {
+    background-color: #d39b6f;
+}
+
+.offer-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.offer-item p {
+    font-size: 16px;
+}
+
+.offer-item a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.special-product {
+    width: 100%;
+}
+
+.btn-more {
+    padding: 12px 28px;
+    font-size: larger;
+    color: #fdf4f4;
+    border: 2px solid #086050;
+    background: #086050;
+    border-radius: 5px;
+}
+
+.btn-more:hover {
+    background-color: #fdf4f4;
+    color: #086050;
+    transition: all ease 0.5s;
+}
+
+.banner {
+    background-color: #fdf4f4;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    margin-top: 24px;
+    padding: 50px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
 }
