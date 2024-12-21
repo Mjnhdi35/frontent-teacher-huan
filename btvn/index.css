@@ -367,9 +367,84 @@ li {
     justify-content: space-around;
 }
 
+.cooking {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
 
-img {
-    width: 300px;
-    height: auto;
-    margin-top: 30px;
+.img-cookone img {
+    display: block;
+    width: 122px;
+    height: 124px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    animation: move-vertical 2s infinite alternate;
+}
+
+.img-cook img {
+    display: block;
+    width: 122px;
+    height: 124px;
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    animation: move-vertical 1s infinite alternate;
+}
+
+.cooking-container {
+    width: 100%;
+    margin: 28px;
+    font-size: 38px;
+    color: #333;
+    font-weight: 800;
+    padding: 12px 24px;
+}
+
+.card-cooker {
+    width: 100%;
+    margin: 0 12px;
+    padding: 24px;
+    display: flex;
+
+}
+
+.card-body {
+    width: 25%;
+    font-size: 24px;
+    position: relative;
+}
+
+.text-cook h3 {
+    font-size: 28px;
+    margin: 14px;
+    align-items: flex-start;
+}
+
+.text-cook p {
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.text-cook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 28px;
+    background: #f8f8f8;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.booking {
+    background-image: url("https://demo81.vuawebnhanh.vn/uploads/1577/form/2024-08-13/booking-bg-2-1930.webp");
+    width: 100%;
+    height: 500px;
+    background-repeat: repeat-x;
+    background-size: cover;
 }
