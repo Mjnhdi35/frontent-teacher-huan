@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #f2f2f2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+i {
+    font-size: 23px;
+}
+
+.item-left:hover {
+    opacity: 0;
+    transition: all ease-in-out 0.5ms;
+}
+
+.item-right:hover {
+    opacity: 0;
+    transition: all ease-in-out 0.5ms;
+}
+
+.dropdown-nav-bar:hover .dropdown-nav-bar-menu {
+    display: block;
+    width: 45px;
+    border-radius: 1px;
+    box-shadow: 0 2px 0 2px #7e404094;
+}
+
+.section-question {
+    background-image: url("https://demo53.vuawebnhanh.vn/uploads/1072/category_option/2024-05-10/background-3329.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-question-group:hover {
+    transition: all ease-in-out 0.5ms;
+    color: #228b22;
+
+}
+
+.bi-star {
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.cart-price {
+    color: #228b22;
+    transition: all ease-in 0.7ms;
+}
+
+.section-cart:hover {
+    border: 1px solid #228b22;
+    transition: all ease-in 0.7ms;
+}
+
+.btn-view-more:hover {
+    background-color: #337ab7;
+    transition: all ease-in 0.7ms;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    max-height: fit-content;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer h5 {
+    color: #77b255;
+
+    margin-bottom: 15px;
+}
+
+a {
+    color: #77b255;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.footer-section-params:hover {
+    color: #228b22;
+    transition: all ease-in 0.7ms;
+}
+
+.footer-section-params a:hover {
+    color: #228b22;
+    transition: all ease-in 0.7ms;
+}
