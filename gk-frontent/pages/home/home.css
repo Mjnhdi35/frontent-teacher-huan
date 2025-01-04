@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.home-page-header {
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+.home-page-header-container {
+    background-color: #6D7155;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-page-header-container i {
+    font-size: 26px;
+    color: #333333cb;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.home-page-header-container i:hover {
+    color: #000;
+}
+
+.nav-items {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #3333336d;
+    font-weight: 500;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.nav-items:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+.hero {
+    background-image: url('https://plantatreeproject.com/wp-content/uploads/2024/03/PAT-home-heroic-img-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 12px;
+}
+
+.hero-container h1 {
+    font-size: 130px;
+    color: #FFFFFFB3;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 24px;
+    text-shadow: 0px 5px 60px rgba(58, 70, 58, 0.6);
+    line-height: 135px;
+}
+
+.hero-container p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 24px;
+    text-shadow: 0px 5px 60px rgba(58, 70, 58, 0.6);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.hero-btn button {
+    padding: 12px 18px;
+    font-size: large;
+    color: rgba(240, 248, 255, 0.329);
+}
+
+.hero-btn button:hover {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.tree-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 16px;
+    padding: 8px;
+    text-align: center;
+
+    align-content: center;
+    justify-content: center;
+
+}
+
+.tree-group {
+    width: 65%;
+    margin: 0 auto;
+    height: fit-content;
+    background: #5459367a;
+    border-radius: 16px;
+    padding: 16px 24px;
+    box-shadow: 1px 1px 10px 1px #3333336d;
+}
+
+.tree-group-left p {
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+.tree-group h3 {
+
+    font-size: larger;
+    margin-top: 16px;
+    line-height: 25px;
+}
+
+.tree-group p {
+
+    font-size: medium;
+    margin-top: 16px;
+    line-height: 25px;
+}
+
+.tree-group button {
+    padding: 8px 16px;
+    margin: 8px 12px;
+    box-shadow: 1px 1px 10px 1px #3333336d;
+}
+
+.content-tree {
+    margin: 8px 16px;
+}
+
+.content-tree h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 25x 25px;
+    color: #333333;
+}
+
+.content-tree h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 150px;
+    padding: 0 56px;
+    color: #333333;
+}
+
+.content-tree p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 100px;
+    padding: 0 56px;
+    color: #333333;
+}
+
+.content-tree-container {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 16px;
+    padding: 16px 24px;
+}
+
+.content-tree-container img {
+    width: 50%;
+    height: 50%;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 1px #3333336d;
+}
+
+.content-tree-container span {
+    font-size: 45px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.content-tree-container p {
+    margin-bottom: 15px;
+
+}
+
+.content-tree-container button {
+    padding: 8px 16px;
+    margin: 8px 12px;
+    box-shadow: 1px 1px 10px 1px #4237376d;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #4237376d;
+    background-color: #6D7155;
+}
+
+.footer .social {
+    padding: 10px 30px;
+    margin-top: 12px;
+
+}
+
+.footer .social i {
+    font-size: 26px;
+    color: #333333cb;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 10px 1px #4237376d;
+    border-radius: 16px;
+
+}
+
+.footer .social i:hover {
+    color: #1e5b1b;
+    transform: scale(1.5);
+    transition: all ease-in 0.3;
+}
+
+@media (max-width: 425px) {
+
+    .home-page-header-container {
+
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hero {
+
+
+        background-image: url('https://plantatreeproject.com/wp-content/uploads/2024/03/PAT-home-heroic-img-bg.jpg');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        bottom: 20px;
+        z-index: 1;
+    }
+
+    .hero-container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container h1 {
+
+        width: 100%;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .tree-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tree-group {
+        width: 100%;
+        margin-bottom: 25px;
+        height: fit-content;
+    }
+
+    .tree-group h3 {
+        font-size: larger;
+        line-height: 25px;
+        padding: 3px;
+    }
+
+    .content-tree {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-tree-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-tree-container img {
+        width: 325px;
+        height: 100%;
+        border-radius: 4px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 10px 1px #3333336d;
+    }
+
+    .content-tree-container p {
+
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        margin: 5px;
+        padding: 2px;
+
+    }
+
+    .content-tree-container span {
+        font-size: 22px;
+        font-weight: 500;
+        color: #333333;
+        margin: 5px;
+        padding: 2px;
+    }
+
+    .content-tree-container button {
+        display: none;
+    }
+
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 10px 1px #4237376d;
+        background-color: #6D7155;
+    }
+
+    .footer .social {
+
+        padding: 0;
+        margin-top: 12px;
+
+    }
+
+    .footer .social i {
+
+        font-size: 18px;
+        color: #333333cb;
+        opacity: 0.7;
+        cursor: pointer;
+        padding: 5px 8px;
+        box-shadow: 1px 1px 10px 1px #4237376d;
+        border-radius: 16px;
+
+    }
+
+}
+
+/* Tab*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .tree-container {
+
+        display: flex;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .tree-group-left p {
+
+        margin-bottom: 5px;
+        padding-bottom: 12px;
+    }
+
+    .content-tree {
+
+        width: 100%;
+        height: fit-content;
+    }
+
+    .content-tree-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-tree-container img {
+
+        width: 80%;
+        height: 100%;
+        border-radius: 16px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 10px 1px #3333336d;
+    }
+
+    .content-tree-container p {
+
+        width: 100%;
+        height: fit-content;
+        margin: 5px;
+    }
+
+    .content-tree-container button {
+        display: none;
+    }
+}
